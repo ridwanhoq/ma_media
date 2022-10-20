@@ -1,4 +1,6 @@
+phase 1 :
 >> theme integration
+
 >> create default pages
     >> components
         >> header
@@ -14,4 +16,14 @@
     >> lang
         >> en.json
         >> bn.json
+    >> setting
+        >> 
+
+>> register
+
+>> login
+
+>> tables
     >> 
+
+>> 
