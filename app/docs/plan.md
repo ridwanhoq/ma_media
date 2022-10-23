@@ -7,10 +7,8 @@ phase 1 :
         >> menu
         >> footer
     >> common pages
-        >> index
-        >> create
-        >> edit
-        >> show
+        >> sample_table
+        >> sample_form
         >> filter (list)
         >> pagination (list)
     >> lang
@@ -27,6 +25,8 @@ phase 1 :
 
 >> tables
     >> users
+    >> user_basics
+    >> user_religions
     >> 
 
 >> 

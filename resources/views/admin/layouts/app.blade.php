@@ -41,10 +41,10 @@
 <body class="vertical-layout vertical-menu 2-columns   fixed-navbar" data-open="click" data-menu="vertical-menu" data-col="2-columns">
 
     {{-- Header --}}
-    @include('admin.components.header')
+    @include('admin.partials.__header')
 
     {{-- Main menu --}}
-    @include('admin.components.main_menu')
+    @include('admin.partials.__main_menu')
  
     <!-- END: Main Menu-->
     
@@ -56,7 +56,7 @@
     <div class="drag-target"></div>
 
     <!-- BEGIN: Footer-->
-    @include('admin.components.footer')
+    @include('admin.partials.__footer')
     <!-- END: Footer-->
 
 
