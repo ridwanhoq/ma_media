@@ -27,6 +27,10 @@ phase 1 :
     >> users
     >> user_basics
     >> user_religions
+    >> divisions
+    >> districts
+    >> upazilas
+    >> unions
     >> 
 
 >> 
@@ -44,3 +48,12 @@ phase 1 :
         
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+>> Sequences
+    >> User
+    >> Country
+    >> Division
+    >> District
+    >> Upazila
+    >> Union
+    >> UserBasic
+    >> 

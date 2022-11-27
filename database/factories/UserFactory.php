@@ -31,7 +31,7 @@ class UserFactory extends Factory
             'gender'            => 1,
             'phone_number'      => '01711223344',
             'email'             => $this->faker->unique()->safeEmail(),
-            'photo'             => '',
+            'photo'             => 'matched_profiles/photo.jpg',
             'country_id'        => 1,
             'email_verified_at' => now(),
             'password'          => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
