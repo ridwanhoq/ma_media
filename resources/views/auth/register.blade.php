@@ -59,7 +59,7 @@
                                 <div class="card-header border-0 pb-0">
                                     <div class="card-title text-center">
                                         <img
-                                            src="{{ asset('app-assets/images/logo/logo-dark.png" alt="branding logo') }}">
+                                            src="{{ asset('app-assets/images/logo/logo-dark.png') }}" alt="branding logo') }}">
                                     </div>
                                     <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2">
                                         <span>Register</span>

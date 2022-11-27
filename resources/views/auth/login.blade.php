@@ -62,14 +62,14 @@
                                 <div class="card-header border-0">
                                     <div class="card-title text-center">
                                         <img
-                                            src="{{ asset('app-assets/images/logo/logo-dark.png" alt="branding logo') }}">
+                                            src="{{ asset('app-assets/images/logo/logo-dark.png') }}" alt="branding logo') }}">
                                     </div>
                                     <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2">
                                         <span>Login</span></h6>
                                 </div>
                                 <div class="card-content">
                                     <div class="card-body">
-                                        <form class="form-horizontal" action={{ route('login') }}" method="POST"
+                                        <form class="form-horizontal" action="{{ route("login") }}" method="POST"
                                             novalidate>
                                             @csrf
                                             <fieldset class="form-group position-relative has-icon-left">
@@ -107,7 +107,7 @@
                                         </form>
                                     </div>
                                     <div class="card-body">
-                                        <a href="register-with-bg-image.html"
+                                        <a href="{{ route('register') }}"
                                             class="btn btn-outline-danger btn-block"><i class="la la-user"></i>
                                             Register</a>
                                     </div>
