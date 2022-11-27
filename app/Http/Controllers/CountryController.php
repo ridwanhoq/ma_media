@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\UserBasic;
+use App\Models\Country;
 use Illuminate\Http\Request;
 
-class UserBasicController extends Controller
+class CountryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class UserBasicController extends Controller
      */
     public function index()
     {
-        
+        //
     }
 
     /**
@@ -41,10 +41,10 @@ class UserBasicController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\UserBasic  $userBasic
+     * @param  \App\Models\Country  $country
      * @return \Illuminate\Http\Response
      */
-    public function show(UserBasic $userBasic)
+    public function show(Country $country)
     {
         //
     }
@@ -52,10 +52,10 @@ class UserBasicController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\UserBasic  $userBasic
+     * @param  \App\Models\Country  $country
      * @return \Illuminate\Http\Response
      */
-    public function edit(UserBasic $userBasic)
+    public function edit(Country $country)
     {
         //
     }
@@ -64,10 +64,10 @@ class UserBasicController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\UserBasic  $userBasic
+     * @param  \App\Models\Country  $country
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, UserBasic $userBasic)
+    public function update(Request $request, Country $country)
     {
         //
     }
@@ -75,10 +75,10 @@ class UserBasicController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\UserBasic  $userBasic
+     * @param  \App\Models\Country  $country
      * @return \Illuminate\Http\Response
      */
-    public function destroy(UserBasic $userBasic)
+    public function destroy(Country $country)
     {
         //
     }

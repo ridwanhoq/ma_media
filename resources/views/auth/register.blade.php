@@ -111,9 +111,8 @@
                                                 @enderror
                                             </fieldset>
 
-
-                                            <fieldset class="row mb-3">
-                                                <input id="password-confirm" type="password" class="form-control"
+                                            <fieldset class="form-group position-relative has-icon-left">
+                                                <input type="password" id="password-confirm" class="form-control"
                                                     name="password_confirmation" required autocomplete="new-password">
 
                                                 @error('password-confirm')
@@ -123,8 +122,8 @@
                                                 @enderror
                                             </fieldset>
 
-                                            <button type="submit" class="btn btn-outline-info btn-block"><i
-                                                    class="la la-user"></i> Register</button>
+                                            <button type="submit" class="btn btn-outline-info btn-block">
+                                                <i class="la la-user"></i> Register</button>
                                         </form>
                                     </div>
                                     <div class="card-body">

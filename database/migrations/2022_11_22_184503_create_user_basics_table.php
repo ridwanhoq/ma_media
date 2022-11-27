@@ -15,6 +15,11 @@ class CreateUserBasicsTable extends Migration
     {
         Schema::create('user_basics', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('division_id')->constrained();
+            $table->foreignId('district_id')->constrained();
+            $table->foreignId('upazila_id')->constrained();
+            $table->foreignId('union_id')->constrained();
+            // $table->
             $table->timestamps();
         });
     }
