@@ -2,6 +2,8 @@
 
 namespace App\Http\Components;
 
+use App\Http\Components\Helpers\BengaliHelper;
+
 class Setting
 {
 
@@ -422,8 +424,8 @@ class Setting
     public  static function degrees_array()
     {
         return [
-            1   => ['key' => 1, 'en' => '', 'bn' => ''],
-            2   => ['key' => 2, 'en' => '', 'bn' => ''],
+            1   => ['key' => 1, 'en' => 'PSC', 'bn' => ''],
+            2   => ['key' => 2, 'en' => 'JSC', 'bn' => ''],
         ];
     }
 
@@ -442,7 +444,7 @@ class Setting
             2   => ['key' => 2, 'en' => '', 'bn' => ''],
         ];
     }
-
+    
 
 
 
