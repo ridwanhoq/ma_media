@@ -66,23 +66,13 @@
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="projectinput5">Gender</label>
-                                                            <select id="projectinput5" name="interested" class="form-control">
-                                                                <option value="" selected="" disabled="">None</option>
-                                                                
-                                                            </select>
+                                                            {!! Form::select('gender', $genders_array, request()->gender ?? null, ['class' => 'form-control', 'placeholder' => __('--Select Any--')]) !!}
                                                         </div>
                                                     </div>
-
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label for="projectinput6">Budget</label>
-                                                            <select id="projectinput6" name="budget" class="form-control">
-                                                                <option value="0" selected="" disabled="">Budget</option>
-                                                                <option value="less than 5000$">less than 5000$</option>
-                                                                <option value="5000$ - 10000$">5000$ - 10000$</option>
-                                                                <option value="10000$ - 20000$">10000$ - 20000$</option>
-                                                                <option value="more than 20000$">more than 20000$</option>
-                                                            </select>
+                                                            <label for="projectinput5">Age Range</label>
+                                                            {!! Form::select('gender', $genders_array, request()->gender ?? null, ['class' => 'form-control', 'placeholder' => __('--Select Any--')]) !!}
                                                         </div>
                                                     </div>
                                                 </div>
@@ -92,8 +82,8 @@
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label for="projectinput1">First Name</label>
-                                                            <input type="text" id="projectinput1" class="form-control" placeholder="First Name" name="fname">
+                                                            <label for="projectinput1">Religion</label>
+                                                            {!! Form::select('religion', $religions_array, request()->religion ?? null, ['class' => 'form-control', 'placeholder' => __('--Select Any--')]) !!}
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6">

@@ -26,16 +26,20 @@ class ViewserviceProvider extends ServiceProvider
             $key_name_en_bn = $lan == 'en' ? "name_en":"name_bn";
 
 
-            view()->composer('admin.searches.basic_search', function ($view) {
+            view()->composer('admin.searches.basic_search', function ($view) use($lan){
 
-                $genders_array = Setting::genders_array();
+                $genders_array      = Setting::array_list_by_element_index("genders_array", $lan);
+                $religions_array    = Setting::array_list_by_element_index("religions_array", $lan);
 
                 $view->with(
                     compact(
-                        'genders_array'
+                        "genders_array",
+                        "religions_array"
                     )
                 );
             });
+            
+
             
 
         });
