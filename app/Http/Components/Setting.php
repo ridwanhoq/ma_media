@@ -2,6 +2,8 @@
 
 namespace App\Http\Components;
 
+use App\Http\Components\Helpers\BengaliHelper;
+
 class Setting
 {
 
@@ -221,10 +223,10 @@ class Setting
     public static function age_ranges_array()
     {
         return [
-            1 => ['en' => '0-6', 'bn' => '০-৬', 'key' => 1],
-            2 => ['en' => '7-12', 'bn' => '৭-১২', 'key' => 2],
-            3 => ['en' => '13-17', 'bn' => '১৩-১৭', 'key' => 3],
-            4 => ['en' => '18+', 'bn' => '১৮+', 'key' => 4],
+            1 => ['key' => 1, 'en' => 'Below 18', 'bn' => '< ১৮'],
+            2 => ['key' => 2, 'en' => '18', 'bn' => '১৮'],
+            3 => ['key' => 3, 'en' => '19', 'bn' => '১৩-১৭'],
+            4 => ['key' => 4, 'en' => '20', 'bn' => '১৮+'],
         ];
     }
 
@@ -422,8 +424,8 @@ class Setting
     public  static function degrees_array()
     {
         return [
-            1   => ['key' => 1, 'en' => '', 'bn' => ''],
-            2   => ['key' => 2, 'en' => '', 'bn' => ''],
+            1   => ['key' => 1, 'en' => 'PSC', 'bn' => ''],
+            2   => ['key' => 2, 'en' => 'JSC', 'bn' => ''],
         ];
     }
 
@@ -443,6 +445,21 @@ class Setting
         ];
     }
 
+
+
+    /**
+     * Get array list to load it in dropdowns
+     */
+    public static function array_list_by_element_index($staticfunction, $index = 'en')
+    {
+        // for religions
+        // self::array_list_by_element_key('religions', 'en');
+        $out_array = [];
+        foreach (self::$staticfunction() as $key => $array) {
+            $out_array[$key] = $array[$index];
+        }
+        return $out_array;
+    }
 
 
 
