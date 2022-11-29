@@ -9,5 +9,5 @@
 
 
 @section('content')
-    @include('admin.profiles.table')
+    @include('admin.matched_profiles.table')
 @endsection

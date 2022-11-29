@@ -58,8 +58,8 @@
                             <div class="card border-grey border-lighten-3 px-1 py-1 m-0">
                                 <div class="card-header border-0 pb-0">
                                     <div class="card-title text-center">
-                                        <img
-                                            src="{{ asset('app-assets/images/logo/logo-dark.png') }}" alt="branding logo') }}">
+                                        <img src="{{ asset('app-assets/images/logo/logo-dark.png') }}"
+                                            alt="branding logo') }}">
                                     </div>
                                     <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2">
                                         <span>Register</span>
@@ -72,7 +72,7 @@
                                             <fieldset class="form-group position-relative has-icon-left">
                                                 <input id="name" type="text"
                                                     class="form-control @error('name') is-invalid @enderror"
-                                                    name="name" value="{{ old('name') }}" required
+                                                    name="name" value="{{ old('name') }}" placeholder="Full Name" required
                                                     autocomplete="name" autofocus>
                                                 <div class="form-control-position">
                                                     <i class="la la-user"></i>
@@ -86,7 +86,7 @@
                                             <fieldset class="form-group position-relative has-icon-left">
                                                 <input id="email" type="email"
                                                     class="form-control @error('email') is-invalid @enderror"
-                                                    name="email" value="{{ old('email') }}" required
+                                                    name="email" value="{{ old('email') }}" placeholder="abc@gmail.com" required
                                                     autocomplete="email">
                                                 <div class="form-control-position">
                                                     <i class="la la-envelope"></i>
@@ -100,7 +100,7 @@
                                             <fieldset class="form-group position-relative has-icon-left">
                                                 <input id="password" type="password"
                                                     class="form-control @error('password') is-invalid @enderror"
-                                                    name="password" required autocomplete="new-password">
+                                                    name="password" required autocomplete="new-password" placeholder="********">
                                                 <div class="form-control-position">
                                                     <i class="la la-key"></i>
                                                 </div>
@@ -112,9 +112,12 @@
                                             </fieldset>
 
                                             <fieldset class="form-group position-relative has-icon-left">
-                                                <input type="password" id="password-confirm" class="form-control"
-                                                    name="password_confirmation" required autocomplete="new-password">
-
+                                                <input type="password" id="password-confirm"
+                                                    class="form-control @error('password-confirm') is-invalid @enderror"
+                                                    name="password_confirmation" required autocomplete="new-password" placeholder="********">
+                                                <div class="form-control-position">
+                                                    <i class="la la-key"></i>
+                                                </div>
                                                 @error('password-confirm')
                                                     <span class="invalid-feedback" role="alert">
                                                         <strong>{{ $message }}</strong>

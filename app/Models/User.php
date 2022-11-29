@@ -46,4 +46,11 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public static $default_date_of_birth   = "1990-01-01";
+    public static $default_gender          = 1;
+    public static $default_phone_number    = "01711223344";
+    public static $default_country_id      = 1;
+
+    
 }
