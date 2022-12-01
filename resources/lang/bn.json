@@ -1,8 +1,7 @@
 {
 
     "--Select Any--": "--বাছাই করুন--",
-
-
+    "Gender":"জেন্ডার",
 
 
 
@@ -189,7 +188,7 @@
     "Staff Address": "স্টাফের ঠিকানা",
     "Personal Information": "ব্যাক্তিগত তথ্য",
     "Photo":"ফটো",
-    "Sex":"জেন্ডার",
+
     "Marital Status": "বৈবাহিক অবস্থা",
     "Mothers Name": "মায়ের নাম",
     "Fathers Name": "বাবার নাম",
