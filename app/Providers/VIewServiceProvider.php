@@ -3,6 +3,10 @@
 namespace App\Http\Providers;
 
 use App\Http\Components\Setting;
+use App\Models\District;
+use App\Models\Division;
+use App\Models\Union;
+use App\Models\Upazila;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\ServiceProvider;
 
@@ -28,13 +32,26 @@ class ViewserviceProvider extends ServiceProvider
 
             view()->composer('admin.searches.basic_search', function ($view) use($lan){
 
-                $genders_array      = Setting::array_list_by_element_index("genders_array", $lan);
-                $religions_array    = Setting::array_list_by_element_index("religions_array", $lan);
+                $genders_array          = Setting::array_list_by_element_index("genders_array", $lan);
+                $religions_array        = Setting::array_list_by_element_index("religions_array", $lan);
+                
+                $title_name_for_geo     = $lan == 'en' ? 'name' : 'bn_name';
+                $division_items         = Division::active()->orderBy('name', 'asc')->pluck($title_name_for_geo, 'id')->toArray();
+                $district_items         = District::active()->orderBy('name', 'asc')->pluck($title_name_for_geo, 'id')->toArray();
+                $upazila_items          = Upazila::active()->orderBy('name', 'asc')->pluck($title_name_for_geo, 'id')->toArray();
+                $union_items            = Union::active()->orderBy('name', 'asc')->pluck($title_name_for_geo, 'id')->toArray();
 
+                $education_types_array  = Setting::array_list_by_element_index('education_types', $lan);
+              
                 $view->with(
                     compact(
                         "genders_array",
-                        "religions_array"
+                        "religions_array",
+                        "division_items",
+                        "district_items",
+                        "upazila_items",
+                        "union_items",
+                        "education_types_array"
                     )
                 );
             });

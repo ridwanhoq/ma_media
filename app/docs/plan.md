@@ -57,3 +57,18 @@ phase 1 :
     >> Union
     >> UserBasic
     >> 
+
+-------------------------------------------------------------------------------------
+>> edit profile 
+    >> basic
+    >> education
+    >> profession
+    >> religion
+    >> partner_preferences
+>> search
+    >> basic
+    >> advanced
+>> favourite
+>> compare
+>> my matches
+>> price plans

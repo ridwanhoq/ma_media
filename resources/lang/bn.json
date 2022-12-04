@@ -2,11 +2,16 @@
 
     "--Select Any--": "--বাছাই করুন--",
     "Gender":"জেন্ডার",
-
-
-
-
-
+    "Religion":"ধর্ম",
+    "Divisions": "বিভাগ",
+    "Districts": "জেলা",
+    "Upazilas": "উপজেলা",
+    "Unions": "ইউনিয়ন",
+    "Educational Qualification": "শিক্ষাগত যোগ্যতা",
+    "Degree":"ডিগ্রী",
+    "From":"",
+    "To":"",
+    "Education Type": "",
 
     "Dashboard": "ড্যাশবোর্ড",
     "Master Setup": "মাস্টার সেটআপ",
@@ -21,10 +26,6 @@
     "Permissions": "অনুমতি",
     "Sliders": "স্লাইডার",
     "Geo": "স্থান",
-    "Divisions": "বিভাগ",
-    "Districts": "জেলা",
-    "Upazilas": "উপজেলা",
-    "Unions": "ইউনিয়ন",
     "Staffs": "কর্মী",
     "Project Director": "প্রকল্প পরিচালক",
     "District Co-ordinator": "জেলা সমন্বয়কারী",
@@ -193,14 +194,14 @@
     "Mothers Name": "মায়ের নাম",
     "Fathers Name": "বাবার নাম",
     "Spouse Name": "স্বামীর নাম",
-    "Religion":"ধর্ম",
+    
     "Birth Date":"জন্ম তারিখ",
     "Contact Information":"যোগাযোগের তথ্য",
     "Mobile No": "মোবাইল নং",
     "Email": "ইমেইল",
     "Password":"পাসওয়ার্ড",
     "Others Information": "অন্যান্য তথ্য",
-    "Educational Qualification": "শিক্ষাগত যোগ্যতা",
+    
     "Date Of Joining": "যোগদানের তারিখ",
     "Date Of Resign": "পদত্যাগের তারিখ",
     "Employment Status": "কর্মসংস্থানের অবস্থা",

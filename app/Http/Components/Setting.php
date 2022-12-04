@@ -30,7 +30,16 @@ class Setting
         ];
     }
 
-    public static function education_qualification_array()
+    public static function education_types_array()
+    {
+        return [
+            10 => ['en' => 'No Education', 'bn' => 'শিক্ষা নেই', 'key' => 10],
+            20 => ['en' => 'Alia', 'bn' => 'প্রাইমারী', 'key' => 20],
+            30 => ['en' => 'Qaomi', 'bn' => 'নিম্ন মাধ্যমিক', 'key' => 30],
+        ];
+    }
+
+    public static function education_qualifications_array()
     {
         return [
             10 => ['en' => 'No Education', 'bn' => 'শিক্ষা নেই', 'key' => 10],
