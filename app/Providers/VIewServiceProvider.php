@@ -32,16 +32,20 @@ class ViewserviceProvider extends ServiceProvider
 
             view()->composer('admin.searches.basic_search', function ($view) use($lan){
 
-                $genders_array          = Setting::array_list_by_element_index("genders_array", $lan);
-                $religions_array        = Setting::array_list_by_element_index("religions_array", $lan);
+                $genders_array              = Setting::array_list_by_element_index("genders_array", $lan);
+                $religions_array            = Setting::array_list_by_element_index("religions_array", $lan);
                 
-                $title_name_for_geo     = $lan == 'en' ? 'name' : 'bn_name';
-                $division_items         = Division::active()->orderBy('name', 'asc')->pluck($title_name_for_geo, 'id')->toArray();
-                $district_items         = District::active()->orderBy('name', 'asc')->pluck($title_name_for_geo, 'id')->toArray();
-                $upazila_items          = Upazila::active()->orderBy('name', 'asc')->pluck($title_name_for_geo, 'id')->toArray();
-                $union_items            = Union::active()->orderBy('name', 'asc')->pluck($title_name_for_geo, 'id')->toArray();
+                $title_name_for_geo         = $lan == 'en' ? 'name' : 'bn_name';
+                $division_items             = Division::active()->orderBy('name', 'asc')->pluck($title_name_for_geo, 'id')->toArray();
+                $district_items             = District::active()->orderBy('name', 'asc')->pluck($title_name_for_geo, 'id')->toArray();
+                $upazila_items              = Upazila::active()->orderBy('name', 'asc')->pluck($title_name_for_geo, 'id')->toArray();
+                $union_items                = Union::active()->orderBy('name', 'asc')->pluck($title_name_for_geo, 'id')->toArray();
 
-                $education_types_array  = Setting::array_list_by_element_index('education_types', $lan);
+                $education_types_array      = Setting::array_list_by_element_index('education_types_array', $lan);
+                $education_degrees_array    = Setting::array_list_by_element_index('education_degrees_array', $lan);
+                $blood_groups_array         = Setting::array_list_by_element_index('blood_groups_array', $lan);
+                $marital_statuses_array     = Setting::array_list_by_element_index('marital_statuses_array', $lan);
+                // $blood_groups_array         = Setting::array_list_by_element_index('blood_groups_array', $lan);
               
                 $view->with(
                     compact(
@@ -51,7 +55,9 @@ class ViewserviceProvider extends ServiceProvider
                         "district_items",
                         "upazila_items",
                         "union_items",
-                        "education_types_array"
+                        "education_types_array",
+                        "education_degrees_array",
+                        "blood_groups_array"
                     )
                 );
             });

@@ -64,6 +64,98 @@
                                     <form class="form">
                                         <div class="form-body">
 
+                                            {{-- permanent address --}}
+
+                                            <h4 class="form-section"><i class="ft-user"></i>{{ __("Permanent Address") }}</h4>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="division_id">{{ __("Division") }}</label>
+                                                        {!! Form::select("division_id", $division_items_array, request()->division_id ?? null, [
+                                                            "class" => "form-control",
+                                                            "placeholder" => __("--Select Any--"),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="district_id">{{ __("DIstrict") }}</label>
+                                                        {!! Form::select("district_id", $district_items_array, request()->district_id ?? null, [
+                                                            "class" => "form-control",
+                                                            "placeholder" => __("--Select Any--"),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>                                                    
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="projectinput3">{{ __("Upazila") }}</label>
+                                                        {!! Form::select("upazila_id", $upazila_items_array, request()->upazila_id ?? null, [
+                                                            "class" => "form-control",
+                                                            "placeholder" => __("--Select Any--"),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="projectinput4">{{ __("Union") }}</label>
+                                                        {!! Form::select("union_id", $union_items_array, request()->union_id ?? null, [
+                                                            "class" => "form-control",
+                                                            "placeholder" => __("--Select Any--"),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            {{-- present address --}}
+
+                                            <h4 class="form-section"><i class="ft-user"></i>{{ __("Present Address") }}</h4>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="division_id">{{ __("Division") }}</label>
+                                                        {!! Form::select("division_id", $division_items_array, request()->division_id ?? null, [
+                                                            "class" => "form-control",
+                                                            "placeholder" => __("--Select Any--"),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="district_id">{{ __("DIstrict") }}</label>
+                                                        {!! Form::select("district_id", $district_items_array, request()->district_id ?? null, [
+                                                            "class" => "form-control",
+                                                            "placeholder" => __("--Select Any--"),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>                                                    
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="projectinput3">{{ __("Upazila") }}</label>
+                                                        {!! Form::select("upazila_id", $upazila_items_array, request()->upazila_id ?? null, [
+                                                            "class" => "form-control",
+                                                            "placeholder" => __("--Select Any--"),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="projectinput4">{{ __("Union") }}</label>
+                                                        {!! Form::select("union_id", $union_items_array, request()->union_id ?? null, [
+                                                            "class" => "form-control",
+                                                            "placeholder" => __("--Select Any--"),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            {{-- personal info --}}
+
                                             <h4 class="form-section"><i class="ft-user"></i> Personal Info</h4>
 
                                             <div class="row">
@@ -87,8 +179,31 @@
                                                 </div>
                                             </div>
 
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="projectinput5">{{ __("Blood Group") }}</label>
+                                                        {!! Form::select("blood_group", $blood_groups_array, request()->blood_group ?? null, [
+                                                            "class" => "form-control",
+                                                            "placeholder" => __("--Select Any--"),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="projectinput5">{{ __("Marital Status") }}</label>
+                                                        {!! Form::select("marital_statuses", $marital_statuses_array, request()->marital_status ?? null, [
+                                                            "class" => "form-control",
+                                                            "placeholder" => __("--Select Any--"),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                            </div>
 
-                                            <h4 class="form-section"><i class="ft-user"></i> Personal Info</h4>
+                                            {{-- religion --}}
+
+
+                                            <h4 class="form-section"><i class="ft-user"></i>{{ __("Religion") }}</h4>
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
@@ -99,47 +214,7 @@
                                                         ]) !!}
                                                     </div>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <label for="division_id">{{ __("Division") }}</label>
-                                                            {!! Form::select("division_id", $division_items_array, request()->division_id ?? null, [
-                                                                "class" => "form-control",
-                                                                "placeholder" => __("--Select Any--"),
-                                                            ]) !!}
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <label for="district_id">{{ __("DIstrict") }}</label>
-                                                            {!! Form::select("district_id", $district_items_array, request()->district_id ?? null, [
-                                                                "class" => "form-control",
-                                                                "placeholder" => __("--Select Any--"),
-                                                            ]) !!}
-                                                        </div>
-                                                    </div>                                                    
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <label for="projectinput3">{{ __("Upazila") }}</label>
-                                                            {!! Form::select("upazila_id", $upazila_items_array, request()->upazila_id ?? null, [
-                                                                "class" => "form-control",
-                                                                "placeholder" => __("--Select Any--"),
-                                                            ]) !!}
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <label for="projectinput4">{{ __("Union") }}</label>
-                                                            {!! Form::select("union_id", $union_items_array, request()->union_id ?? null, [
-                                                                "class" => "form-control",
-                                                                "placeholder" => __("--Select Any--"),
-                                                            ]) !!}
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            </div>
 
                                                 <h4 class="form-section"><i class="la la-paperclip"></i> {{ __("Educational Qualification") }}
                                                 </h4>
@@ -156,7 +231,7 @@
                                                 <h5>{{ __("From") }}</h5>
                                                 <div class="form-group">
                                                     <label for="from_degree">{{ __("Degree") }}</label>
-                                                    {!! Form::select("from_degree", $egrees_array, request()->degree ?? null, [
+                                                    {!! Form::select("from_degree", $education_degrees_array, request()->from_degree ?? null, [
                                                                 "class" => "form-control",
                                                                 "placeholder" => __("--Select Any--"),
                                                             ]) !!}
@@ -165,44 +240,12 @@
                                                 <h5>{{ __("To") }}</h5>
                                                 <div class="form-group">
                                                     <label for="to_degree">{{ __("Degree") }}</label>
-                                                    {!! Form::select("to_degree", $egrees_array, request()->degree ?? null, [
+                                                    {!! Form::select("to_degree", $education_degrees_array, request()->to_degree ?? null, [
                                                                 "class" => "form-control",
                                                                 "placeholder" => __("--Select Any--"),
                                                             ]) !!}
                                                 </div>
-------------------
-                                                <div class="form-group">
-                                                    <label for="companyName">{{ __("Degree") }}</label>
-                                                    {!! Form::select("union_id", $districts_array, request()->union_id ?? null, [
-                                                                "class" => "form-control",
-                                                                "placeholder" => __("--Select Any--"),
-                                                            ]) !!}
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="companyName">{{ __("Degree") }}</label>
-                                                    {!! Form::select("union_id", $districts_array, request()->union_id ?? null, [
-                                                                "class" => "form-control",
-                                                                "placeholder" => __("--Select Any--"),
-                                                            ]) !!}
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="companyName">{{ __("Degree") }}</label>
-                                                    {!! Form::select("union_id", $districts_array, request()->union_id ?? null, [
-                                                                "class" => "form-control",
-                                                                "placeholder" => __("--Select Any--"),
-                                                            ]) !!}
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="companyName">{{ __("Degree") }}</label>
-                                                    {!! Form::select("union_id", $districts_array, request()->union_id ?? null, [
-                                                                "class" => "form-control",
-                                                                "placeholder" => __("--Select Any--"),
-                                                            ]) !!}
-                                                </div>
-
+                                                
                                                 <div class="form-group">
                                                     <label for="companyName">{{ __("Degree") }}</label>
                                                     {!! Form::select("union_id", $districts_array, request()->union_id ?? null, [
@@ -212,6 +255,54 @@
                                                 </div>
 
 
+
+
+                                                <div class="row">
+                                                    <div class="form-group">
+                                                        <label for="companyName">{{ __("Degree") }}</label>
+                                                        {!! Form::select("union_id", $districts_array, request()->union_id ?? null, [
+                                                                    "class" => "form-control",
+                                                                    "placeholder" => __("--Select Any--"),
+                                                                ]) !!}
+                                                    </div>
+    
+                                                    <div class="form-group">
+                                                        <label for="companyName">{{ __("Degree") }}</label>
+                                                        {!! Form::select("union_id", $districts_array, request()->union_id ?? null, [
+                                                                    "class" => "form-control",
+                                                                    "placeholder" => __("--Select Any--"),
+                                                                ]) !!}
+                                                    </div>
+    
+
+                                                </div>
+
+
+
+
+                                                <div class="row">
+                                                    <div class="form-group">
+                                                        <label for="companyName">{{ __("Degree") }}</label>
+                                                        {!! Form::select("union_id", $districts_array, request()->union_id ?? null, [
+                                                                    "class" => "form-control",
+                                                                    "placeholder" => __("--Select Any--"),
+                                                                ]) !!}
+                                                    </div>
+    
+                                                    <div class="form-group">
+                                                        <label for="companyName">{{ __("Degree") }}</label>
+                                                        {!! Form::select("union_id", $districts_array, request()->union_id ?? null, [
+                                                                    "class" => "form-control",
+                                                                    "placeholder" => __("--Select Any--"),
+                                                                ]) !!}
+                                                    </div>
+    
+                                                </div>
+
+
+
+
+                                            <div class="row">
                                                 <div class="form-group">
                                                     <label>Select File</label>
                                                     <label id="projectinput7" class="file center-block">

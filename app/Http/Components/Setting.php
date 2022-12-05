@@ -430,7 +430,7 @@ class Setting
         ];
     }
 
-    public  static function degrees_array()
+    public  static function education_degrees_array()
     {
         return [
             1   => ['key' => 1, 'en' => 'PSC', 'bn' => ''],

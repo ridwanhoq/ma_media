@@ -12,6 +12,10 @@
     "From":"",
     "To":"",
     "Education Type": "",
+    "Blood Group": "",
+    "Marital Status": "বৈবাহিক অবস্থা",
+    "Permanent Address": "",
+    "Present Address": "",
 
     "Dashboard": "ড্যাশবোর্ড",
     "Master Setup": "মাস্টার সেটআপ",
@@ -190,7 +194,7 @@
     "Personal Information": "ব্যাক্তিগত তথ্য",
     "Photo":"ফটো",
 
-    "Marital Status": "বৈবাহিক অবস্থা",
+
     "Mothers Name": "মায়ের নাম",
     "Fathers Name": "বাবার নাম",
     "Spouse Name": "স্বামীর নাম",
