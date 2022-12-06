@@ -46,6 +46,8 @@ class ViewserviceProvider extends ServiceProvider
                 $blood_groups_array         = Setting::array_list_by_element_index('blood_groups_array', $lan);
                 $marital_statuses_array     = Setting::array_list_by_element_index('marital_statuses_array', $lan);
                 $mazhabs_array              = Setting::array_list_by_element_index('mazhabs_array', $lan);
+                $designations_array         = Setting::array_list_by_element_index('designations_array', $lan);
+                $professions_array          = Setting::array_list_by_element_index('professions_array', $lan);
               
                 $view->with(
                     compact(
@@ -58,7 +60,9 @@ class ViewserviceProvider extends ServiceProvider
                         "education_types_array",
                         "education_degrees_array",
                         "blood_groups_array",
-                        "mazhabs_array"
+                        "mazhabs_array",
+                        "designations_array",
+                        "professions_array"
                     )
                 );
             });

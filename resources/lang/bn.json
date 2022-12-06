@@ -15,8 +15,12 @@
     "Blood Group": "",
     "Marital Status": "বৈবাহিক অবস্থা",
     "Permanent Address": "",
-    "Present Address": "",,
+    "Present Address": "",
     "Mazhab":"",
+    "Personal Information": "ব্যাক্তিগত তথ্য",
+    "Profession": "",
+    "Type":"ধরন",    
+    "Designation":"",
 
     "Dashboard": "ড্যাশবোর্ড",
     "Master Setup": "মাস্টার সেটআপ",
@@ -155,7 +159,7 @@
     "No": "না",
     "Start Date": "প্রারম্ভিক তারিখ",
     "End Date": "সমাপ্তির তারিখ",
-    "Type":"ধরন",
+    
     "Title(en)":"শিরোনাম( ইংরেজীতে)",
     "Title(bn)":"শিরোনাম( বাংলায় )",
     "Prev": "পূর্বে যান",
@@ -192,7 +196,7 @@
     "Create Staff": "স্টাফ তৈরী করুন",
     "Edit Staff": "স্টাফ সম্পাদনা করুন",
     "Staff Address": "স্টাফের ঠিকানা",
-    "Personal Information": "ব্যাক্তিগত তথ্য",
+    
     "Photo":"ফটো",
 
 
