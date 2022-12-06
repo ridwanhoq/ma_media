@@ -75,12 +75,12 @@ phase 1 :
             >> height range
             >> complexion
         >> education
+            >> education type
             >> degree range
             >> 
         >> profession
         >> religion
             >> religion
-            >> caste
             >> mazhab
         >> site related
             >> with photo
