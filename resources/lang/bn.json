@@ -21,7 +21,15 @@
     "Profession": "",
     "Type":"ধরন",    
     "Designation":"",
-
+    "Height":"উচ্চতা",
+    "Weight":"ওজন",
+    "Age":"",
+    "Search": "অনুসন্ধান করুন",
+    "Profiles":"",
+    "Profile": "প্রোফাইল",
+    "Save": "সেভ",
+    "Cancel": "বাতিল",
+    
     "Dashboard": "ড্যাশবোর্ড",
     "Master Setup": "মাস্টার সেটআপ",
     "Subject": "বিষয়",
@@ -83,7 +91,7 @@
     "M&E Evaluations Report" : "এম এন্ড ই মূল্যায়ন",
     "Result": "ফলাফল",
     "Evaluation": "এভ্যালুয়েশন",
-    "Profile": "প্রোফাইল",
+    
     "Center": "কেন্দ্র",
     "M&E Evaluation Mark": "এম এন্ড ই এভালুয়েশন মার্ক",
     "My Evaluation": "নিজস্ব মূল্যায়ন",
@@ -145,8 +153,7 @@
     "TO min visit": "টিও",
     "PO min visit": "পিও",
     "Status": "স্ট্যাটাস",
-    "Save": "সেভ",
-    "Cancel": "বাতিল",
+
     "Points and grade distributions":"পয়েন্টস  এন্ড গ্রেড ডিস্ট্রিবিউশন্স",
     "Create Subject": "বিষয় তৈরী",
     "Edit Subject": "বিষয় সম্পাদনা",
@@ -166,7 +173,7 @@
     "Next": "পরে যান",
     "Add New Event": "নতুন ইভেন্ট যোগ করুন",
     "Add New": "নতুন যুক্ত করুন",
-    "Search": "অনুসন্ধান করুন",
+    
     "Action": "অ্যাকশন",
     "Color":"রঙ",
     "Create Calendar Event Type": "ক্যালেন্ডার ইভেন্টের ধরন তৈরি করুন",
@@ -264,8 +271,7 @@
     "Delete": "মুছে ফেলুন",
     "No information found!": "কোন তথ্য পাওয়া যায়নি!",
     "Date":"তারিখ",
-    "Weight":"ওজন",
-    "Height":"উচ্চতা",
+
     "Nutrition":"পুষ্টি",
     "Vision":"দর্শন",
     "Cleanliness":"পরিচ্ছন্নতা",

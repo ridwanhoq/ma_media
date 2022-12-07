@@ -59,7 +59,7 @@
                             <div class="card-content collapse show">
                                 <div class="card-body">
                                     <div class="card-text">
-                                        <p>Basic Search Profiles</p>
+                                        <p>{{ __('Search').' '.__('Profiles') }}</p>
                                     </div>
                                     <form class="form">
                                         <div class="form-body">
@@ -163,8 +163,20 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label for="projectinput5">{{ __('Gender') }}</label>
+                                                        <label for="gender">{{ __('Gender') }}</label>
                                                         {!! Form::select('gender', $genders_array, request()->gender ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="age_from">{{ __('From').' '__('Age') }}</label>
+                                                        {!! Form::select('age_from', $ages_array, request()->age_from ?? null, [
                                                             'class' => 'form-control',
                                                             'placeholder' => __('--Select Any--'),
                                                         ]) !!}
@@ -172,8 +184,8 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label for="projectinput5">{{ __('Age Range') }}</label>
-                                                        {!! Form::select('gender', $genders_array, request()->gender ?? null, [
+                                                        <label for="age_to">{{ __('To').''.__('Age') }}</label>
+                                                        {!! Form::select('age_to', $ages_array, request()->age_to ?? null, [
                                                             'class' => 'form-control',
                                                             'placeholder' => __('--Select Any--'),
                                                         ]) !!}
@@ -195,6 +207,69 @@
                                                     <div class="form-group">
                                                         <label for="projectinput5">{{ __('Marital Status') }}</label>
                                                         {!! Form::select('marital_statuses', $marital_statuses_array, request()->marital_status ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="height_from">{{ __('Height').' '.__('From') }}</label>
+                                                        {!! Form::select('height_from', $heights_array, request()->height_from ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="height_to">{{ __('Height').' '.__('To') }}</label>
+                                                        {!! Form::select('height_to', $heights_array, request()->height_to ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="from_weight">{{ __('From').' '__('Weight') }}</label>
+                                                        {!! Form::select('from_weight', $weights_array, request()->from_weight ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="to_weight">{{ __('To').' '.__('Weight') }}</label>
+                                                        {!! Form::select('to_weight', $weights_array, request()->to_weight ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="from_complexion">{{ __('From').' '__('Complexion') }}</label>
+                                                        {!! Form::select('from_complexion', $complexions_array, request()->from_complexion ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="to_complexion">{{ __('To').' '.__('Complexion') }}</label>
+                                                        {!! Form::select('to_complexion', $complexions_array, request()->to_complexion ?? null, [
                                                             'class' => 'form-control',
                                                             'placeholder' => __('--Select Any--'),
                                                         ]) !!}
@@ -246,20 +321,18 @@
 
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <h5>{{ __('From') }}</h5>
                                                     <div class="form-group">
-                                                        <label for="from_degree">{{ __('From').' '.__('Degree') }}</label>
-                                                        {!! Form::select('from_degree', $education_degrees_array, request()->from_degree ?? null, [
+                                                        <label for="degree_from">{{ __('Degree').' '.__('From') }}</label>
+                                                        {!! Form::select('degree_from', $education_degrees_array, request()->degree_from ?? null, [
                                                             'class' => 'form-control',
                                                             'placeholder' => __('--Select Any--'),
                                                         ]) !!}
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <h5>{{ __('To') }}</h5>
                                                     <div class="form-group">
-                                                        <label for="to_degree">{{ __('To').' '.__('Degree') }}</label>
-                                                        {!! Form::select('to_degree', $education_degrees_array, request()->to_degree ?? null, [
+                                                        <label for="degree_to">{{ __('Degree').' '.__('To') }}</label>
+                                                        {!! Form::select('degree_to', $education_degrees_array, request()->degree_to ?? null, [
                                                             'class' => 'form-control',
                                                             'placeholder' => __('--Select Any--'),
                                                         ]) !!}
@@ -313,8 +386,6 @@
                                                         'placeholder' => __('--Select Any--'),
                                                     ]) !!}
                                                 </div>
-
-
                                             </div>
 
 
@@ -357,12 +428,14 @@
                                                 </div>
                                             </div>
 
+                                            -----------------------
+
                                             <div class="form-actions">
                                                 <button type="button" class="btn btn-warning mr-1">
-                                                    <i class="ft-x"></i> Cancel
+                                                    <i class="ft-x"></i> {{ __('Cancel') }}
                                                 </button>
                                                 <button type="submit" class="btn btn-primary">
-                                                    <i class="la la-check-square-o"></i> Save
+                                                    <i class="la la-check-square-o"></i> {{ __('Search') }}
                                                 </button>
                                             </div>
                                     </form>

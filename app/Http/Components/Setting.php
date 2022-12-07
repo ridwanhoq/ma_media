@@ -239,7 +239,14 @@ class Setting
         ];
     }
 
-
+    public static function ages_array(){
+        return [
+            1 => ['key' => 1, 'en' => 'Below 18', 'bn' => '< ১৮'],
+            2 => ['key' => 2, 'en' => '18', 'bn' => '১৮'],
+            3 => ['key' => 3, 'en' => '19', 'bn' => '১৩-১৭'],
+            4 => ['key' => 4, 'en' => '20', 'bn' => '১৮+'],
+        ];
+    }
 
     public static function creativities_array()
     {

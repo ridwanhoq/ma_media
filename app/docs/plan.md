@@ -73,6 +73,7 @@ phase 1 :
             >> marital status
             >> age range
             >> height range
+            >> weight range
             >> complexion
         >> education
             >> education type
