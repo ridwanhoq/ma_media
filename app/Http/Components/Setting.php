@@ -30,7 +30,16 @@ class Setting
         ];
     }
 
-    public static function education_qualification_array()
+    public static function education_types_array()
+    {
+        return [
+            10 => ['en' => 'No Education', 'bn' => 'শিক্ষা নেই', 'key' => 10],
+            20 => ['en' => 'Alia', 'bn' => 'প্রাইমারী', 'key' => 20],
+            30 => ['en' => 'Qaomi', 'bn' => 'নিম্ন মাধ্যমিক', 'key' => 30],
+        ];
+    }
+
+    public static function education_qualifications_array()
     {
         return [
             10 => ['en' => 'No Education', 'bn' => 'শিক্ষা নেই', 'key' => 10],
@@ -230,7 +239,14 @@ class Setting
         ];
     }
 
-
+    public static function ages_array(){
+        return [
+            1 => ['key' => 1, 'en' => 'Below 18', 'bn' => '< ১৮'],
+            2 => ['key' => 2, 'en' => '18', 'bn' => '১৮'],
+            3 => ['key' => 3, 'en' => '19', 'bn' => '১৩-১৭'],
+            4 => ['key' => 4, 'en' => '20', 'bn' => '১৮+'],
+        ];
+    }
 
     public static function creativities_array()
     {
@@ -421,7 +437,7 @@ class Setting
         ];
     }
 
-    public  static function degrees_array()
+    public  static function education_degrees_array()
     {
         return [
             1   => ['key' => 1, 'en' => 'PSC', 'bn' => ''],

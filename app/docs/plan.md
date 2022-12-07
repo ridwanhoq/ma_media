@@ -57,3 +57,40 @@ phase 1 :
     >> Union
     >> UserBasic
     >> 
+
+-------------------------------------------------------------------------------------
+>> edit profile 
+    >> basic
+    >> education
+    >> profession
+    >> religion
+    >> partner_preferences
+>> search
+    >> basic
+        >> personal
+            >> gender
+            >> blood group
+            >> marital status
+            >> age range
+            >> height range
+            >> weight range
+            >> complexion
+        >> education
+            >> education type
+            >> degree range
+            >> 
+        >> profession
+        >> religion
+            >> religion
+            >> mazhab
+        >> site related
+            >> with photo
+            >> profile complete more than
+            >> mobile verified
+            >> email verified
+    >> advanced
+    >> custom search
+>> favourite
+>> compare
+>> my matches
+>> price plans
