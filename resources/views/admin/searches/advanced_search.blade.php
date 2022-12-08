@@ -365,6 +365,27 @@
                                                 </div>
                                             </div>
 
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="profession">{{ __('Average').' '.__('Income').__(' ').('Income') }}</label>
+                                                        {!! Form::select('profession', $professions_array, request()->profession ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="profession_designation">{{ __('Designation') }}</label>
+                                                        {!! Form::select('designation', $designations_array, request()->designation ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                            </div>
+
 
                                             -----------------------
 

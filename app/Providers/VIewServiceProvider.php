@@ -55,7 +55,6 @@ class ViewserviceProvider extends ServiceProvider
                 $weights_array              = Setting::array_list_by_element_index('weights_array', $lan);
                 $complexions_array          = Setting::array_list_by_element_index('complexions_array', $lan);
                 
-                
                 $view->with(
                     compact(
                         "genders_array",

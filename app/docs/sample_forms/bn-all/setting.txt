@@ -1,0 +1,6 @@
+                                                            <option value="1" data-select2-id="select2-data-71-qw0c">অবিবাহিত</option>
+                                                            <option value="2" data-select2-id="select2-data-72-la7d">বিবাহিত</option>
+                                                            <option value="3" data-select2-id="select2-data-73-v4g6">ডিভোর্সড</option>
+                                                            <option value="4" data-select2-id="select2-data-74-ibh8">বিধবা</option>
+                                                            <option value="5" data-select2-id="select2-data-75-m6f9">বিপত্নীক</option>
+
