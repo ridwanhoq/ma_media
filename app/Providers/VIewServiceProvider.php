@@ -54,7 +54,10 @@ class ViewserviceProvider extends ServiceProvider
                 $heights_array              = Setting::array_list_by_element_index('heights_array', $lan);
                 $weights_array              = Setting::array_list_by_element_index('weights_array', $lan);
                 $complexions_array          = Setting::array_list_by_element_index('complexions_array', $lan);
-                
+                $monthly_incomes_array      = Setting::array_list_by_element_index('monthly_incomes_array', $lan);
+                $number_of_brothers_array   = Setting::array_list_by_element_index('number_of_brothers_array', $lan);
+                $number_of_sisters_array    = $number_of_brothers_array;
+
                 $view->with(
                     compact(
                         "genders_array",
@@ -72,6 +75,9 @@ class ViewserviceProvider extends ServiceProvider
                         "heights_array",
                         "weights_array",
                         "complexions_array",
+                        "monthly_incomes_array",
+                        "number_of_brothers_array",
+                        "number_of_sisters_array"
                     )
                 );
 

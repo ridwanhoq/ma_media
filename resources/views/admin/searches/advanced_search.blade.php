@@ -301,6 +301,27 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="have_beard">{{ __('Have').' '.__('Beard') }}</label>
+                                                        {!! Form::select('have_beard', $yes_no_array, request()->have_beard ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="mazhab">{{ __('Mazhab') }}</label>
+                                                        {!! Form::select('mazhab', $mazhabs_array, request()->mazhab ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                            </div>
 
                                             <h4 class="form-section"><i class="la la-paperclip"></i>
                                                 {{ __('Educational Qualification') }}
@@ -315,7 +336,6 @@
                                                             'placeholder' => __('--Select Any--'),
                                                         ]) !!}
                                                     </div>
-
                                                 </div>
                                             </div>
 
@@ -347,8 +367,29 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label for="profession">{{ __('Profession').' '.__('Type') }}</label>
+                                                        <label for="profession">{{ __('Profession') }}</label>
                                                         {!! Form::select('profession', $professions_array, request()->profession ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="designation">{{ __('Designation') }}</label>
+                                                        {!! Form::select('designation', $designations_array, request()->designation ?? null, [
+                                                            'class' => 'form-control',
+                                                            'placeholder' => __('--Select Any--'),
+                                                        ]) !!}
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="monthly_incomes_array">{{ __('Average').' '.__('Monthly').__(' ').('Income') }}</label>
+                                                        {!! Form::select('monthly_income', $monthly_incomes_array, request()->monthly_income ?? null, [
                                                             'class' => 'form-control',
                                                             'placeholder' => __('--Select Any--'),
                                                         ]) !!}
@@ -365,11 +406,54 @@
                                                 </div>
                                             </div>
 
+                                            <h4 class="form-section">
+                                                <i class="la la-laptop"></i>
+                                                {{ __('Family').' '.__('Information') }}
+                                            </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label for="number_of_brothers">{{ __('Number').' '.__('Of').' '.__('Brothers') }}</label>
+                                                    {!! Form::select('number_of_brothers', $number_of_brothers, request()->number_of_brothers ?? null, [
+                                                        'class' => 'form-control',
+                                                        'placeholder' => __('--Select Any--')
+                                                    ]) !!}
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="number_of_sisters">{{ __('Number').' '.__('Of').' '.__('Sisters') }}</label>
+                                                    {!! Form::select('number_of_sisters', $number_of_sisters, request()->number_of_sisters ?? null, [
+                                                        'class' => 'form-control',
+                                                        'placeholder' => __('--Select Any--')
+                                                    ]) !!}
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label for="social_status">{{ __('Social').' '.__('Dignity') }}</label>
+                                                    {!! Form::select('social_status', $social_statuses_array, request()->social_status ?? null, [
+                                                        'class' => 'form-control',
+                                                        'placeholder' => __('--Select Any--')
+                                                    ]) !!}
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="number_of_sisters">{{ __('Number').' '.__('Of').__('Brothers') }}</label>
+                                                    {!! Form::select('number_of_sisters', $number_of_sisters, request()->number_of_sisters ?? null, [
+                                                        'class' => 'form-control',
+                                                        'placeholder' => __('--Select Any--')
+                                                    ]) !!}
+                                                </div>
+                                            </div>
+
+
+
+
+-----------------------
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label for="profession">{{ __('Average').' '.__('Income').__(' ').('Income') }}</label>
-                                                        {!! Form::select('profession', $professions_array, request()->profession ?? null, [
+                                                        <label for="monthly_incomes_array">{{ __('Average').' '.__('Monthly').__(' ').('Income') }}</label>
+                                                        {!! Form::select('monthly_income', $monthly_incomes_array, request()->monthly_income ?? null, [
                                                             'class' => 'form-control',
                                                             'placeholder' => __('--Select Any--'),
                                                         ]) !!}
@@ -377,13 +461,14 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label for="profession_designation">{{ __('Designation') }}</label>
-                                                        {!! Form::select('designation', $designations_array, request()->designation ?? null, [
+                                                        <label for="monthly_incomes_array">{{ __('Average').' '.__('Monthly').__(' ').('Income') }}</label>
+                                                        {!! Form::select('monthly_income', $monthly_incomes_array, request()->monthly_income ?? null, [
                                                             'class' => 'form-control',
                                                             'placeholder' => __('--Select Any--'),
                                                         ]) !!}
                                                     </div>
                                                 </div>
+
                                             </div>
 
 

@@ -461,6 +461,13 @@ class Setting
         ];
     }
 
+    public function number_of_brothers_array()
+    {
+        return [
+            1   => ['key' => 1, 'en' => '', 'bn' => ''],
+            2   => ['key' => 1, 'en' => '', 'bn' => '']
+        ];
+    }
 
 
     /**

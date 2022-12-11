@@ -29,7 +29,19 @@
     "Profile": "প্রোফাইল",
     "Save": "সেভ",
     "Cancel": "বাতিল",
+    "Average Monthly Income":"গড় মাসিক আয়",
+    "Family":"",
+    "Information": "",
+    "Number": "",
+    "Of":"",
+    "Brothers":"",
+    "Sisters":"",
+    "Social" : "",
+    "Dignity":"",
+    "Have":"",
+    "Beard":"",
     
+
     "Dashboard": "ড্যাশবোর্ড",
     "Master Setup": "মাস্টার সেটআপ",
     "Subject": "বিষয়",
@@ -275,7 +287,7 @@
     "Nutrition":"পুষ্টি",
     "Vision":"দর্শন",
     "Cleanliness":"পরিচ্ছন্নতা",
-    "Average Monthly Income (family)":"গড় মাসিক আয় (পরিবারের)",
+    
     "Occupation":"পেশা",
     "Family Member":"পরিবারের সদস্য ",
     "Role":"ভূমিকা",
