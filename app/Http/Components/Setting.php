@@ -7,7 +7,6 @@ use App\Http\Components\Helpers\BengaliHelper;
 class Setting
 {
 
-
     /***
      * common starts
      */
@@ -522,15 +521,20 @@ class Setting
     
     public function education_faculties_array(){
         return [
-            1   => ['key' => 1, 'en' => '', 'bn' => ''],
-            2   => ['key' => 1, 'en' => '', 'bn' => '']
+            1   => ['key' => 1, 'en' => 'Qawmi Madrasah', 'bn' => 'কওমি মাদ্রাসা'],
+            2   => ['key' => 2, 'en' => 'General', 'bn' => 'জেনারেল'],
+            3   => ['key' => 3, 'en' => 'Alia Madrasah', 'bn' => 'আলিয়া মাদ্রাসা'],
+            4   => ['key' => 4, 'en' => 'English', 'bn' => 'ইংরেজি'],
+            5   => ['key' => 4, 'en' => 'Technical', 'bn' => 'কারিগরি'],
         ];
     }
     
     public function qawmi_grade_points_array(){
         return [
-            1   => ['key' => 1, 'en' => '', 'bn' => ''],
-            2   => ['key' => 1, 'en' => '', 'bn' => '']
+            1   => ['key' => 1, 'en' => '', 'bn' => 'মুমতায'],
+            2   => ['key' => 1, 'en' => '', 'bn' => 'জায়্যিদ জিদ্দান'],
+            3   => ['key' => 1, 'en' => '', 'bn' => 'জায়্যিদ'],
+            4   => ['key' => 1, 'en' => '', 'bn' => 'মকবূল']
         ];
     }
     
@@ -544,16 +548,18 @@ class Setting
     public function ssc_groups_array()
     {
         return [
-            1   => ['key' => 1, 'en' => '', 'bn' => ''],
-            2   => ['key' => 1, 'en' => '', 'bn' => '']
+            1   => ['key' => 1, 'en' => 'Science', 'bn' => 'বিজ্ঞান বিভাগ'],
+            2   => ['key' => 1, 'en' => '', 'bn' => 'মানবিক বিভাগ'],
+            1   => ['key' => 1, 'en' => '', 'bn' => 'ব্যবসা বিভাগ'],
+            2   => ['key' => 1, 'en' => '', 'bn' => 'কারিগরি / ভোকেশনাল'],
         ];
     }
 
     public function hijab_types_array()
     {
         return [
-            1   => ['key' => 1, 'en' => '', 'bn' => ''],
-            2   => ['key' => 1, 'en' => '', 'bn' => '']
+            1   => ['key' => 1, 'en' => '', 'bn' => 'আমি বোরকার সাথে মুখ ঢাকি ও মোজা পড়ি'],
+            2   => ['key' => 1, 'en' => '', 'bn' => 'আমি বোরকার সাথে মুখ ঢেকে চলি']
         ];
     }
     
@@ -573,10 +579,21 @@ class Setting
         ];
     }
 
-
-
-
-
+    public function classes_array()
+    {
+        return [
+            1 => ['key' => 1, 'en', 'bn' => '১০ম'],
+            1 => ['key' => 1, 'en', 'bn' => '৯ম'],
+            1 => ['key' => 1, 'en', 'bn' => '৮ম'],
+            1 => ['key' => 1, 'en', 'bn' => '৭ম'],
+            1 => ['key' => 1, 'en', 'bn' => '৬ষ্ঠ'],
+            1 => ['key' => 1, 'en', 'bn' => '৫ম'],
+            1 => ['key' => 1, 'en', 'bn' => '৪র্থ'],
+            1 => ['key' => 1, 'en', 'bn' => '৩য়'],
+            1 => ['key' => 1, 'en', 'bn' => '২য়'],
+            1 => ['key' => 1, 'en', 'bn' => '১ম'],        
+        ];
+    }
 
 
 

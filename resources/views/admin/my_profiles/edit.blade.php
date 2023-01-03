@@ -81,8 +81,6 @@
                         <select class="form-control select2-hidden-accessible" id="type_of_cv" name="type_of_cv"
                             data-select2-id="select2-data-type_of_cv" tabindex="-1" aria-hidden="true">
                             <option selected="" value="" data-select2-id="select2-data-2-myc1">----</option>
-                            <option value="m" data-select2-id="select2-data-67-k107">পাত্রের বায়োডাটা</option>
-                            <option value="f" data-select2-id="select2-data-68-7su5">পাত্রীর বায়োডাটা</option>
                         </select><span
                             class="select2 select2-container select2-container--default select2-container--above"
                             dir="ltr" data-select2-id="select2-data-1-56le" style="width: 100%;"><span
@@ -91,8 +89,7 @@
                                     aria-disabled="false" aria-labelledby="select2-type_of_cv-container"
                                     aria-controls="select2-type_of_cv-container"><span
                                         class="select2-selection__rendered" id="select2-type_of_cv-container"
-                                        role="textbox" aria-readonly="true" title="পাত্রের বায়োডাটা">পাত্রের
-                                        বায়োডাটা</span><span class="select2-selection__arrow" role="presentation"><b
+                                        </span><span class="select2-selection__arrow" role="presentation"><b
                                             role="presentation"></b></span></span></span><span
                                 class="dropdown-wrapper" aria-hidden="true"></span></span>
                     </div>
@@ -132,70 +129,6 @@
                             name="permanent_district" data-select2-id="select2-data-permanent_district"
                             tabindex="-1" aria-hidden="true">
                             <option selected="" value="" data-select2-id="select2-data-6-72uy">----</option>
-                            <option value="9">কক্সবাজার</option>
-                            <option value="45">কিশোরগঞ্জ</option>
-                            <option value="60">কুড়িগ্রাম</option>
-                            <option value="1">কুমিল্লা</option>
-                            <option value="25">কুষ্টিয়া</option>
-                            <option value="10">খাগড়াছড়ি</option>
-                            <option value="27">খুলনা</option>
-                            <option value="57">গাইবান্ধা</option>
-                            <option value="41">গাজীপুর</option>
-                            <option value="51">গোপালগঞ্জ</option>
-                            <option value="8">চট্টগ্রাম</option>
-                            <option value="6">চাঁদপুর</option>
-                            <option value="18">চাঁপাইনবাবগঞ্জ</option>
-                            <option value="24">চুয়াডাঙ্গা</option>
-                            <option value="17">জয়পুরহাট</option>
-                            <option value="63">জামালপুর</option>
-                            <option value="30">ঝালকাঠি</option>
-                            <option value="29">ঝিনাইদহ</option>
-                            <option value="44">টাঙ্গাইল</option>
-                            <option value="58">ঠাকুরগাঁও</option>
-                            <option value="47">ঢাকা</option>
-                            <option value="54">দিনাজপুর</option>
-                            <option value="19">নওগাঁ</option>
-                            <option value="23">নড়াইল</option>
-                            <option value="40">নরসিংদী</option>
-                            <option value="16">নাটোর</option>
-                            <option value="43">নারায়ণগঞ্জ</option>
-                            <option value="56">নীলফামারী</option>
-                            <option value="64">নেত্রকোণা</option>
-                            <option value="5">নোয়াখালী</option>
-                            <option value="53">পঞ্চগড়</option>
-                            <option value="31">পটুয়াখালী</option>
-                            <option value="13">পাবনা</option>
-                            <option value="32">পিরোজপুর</option>
-                            <option value="52">ফরিদপুর</option>
-                            <option value="2">ফেনী</option>
-                            <option value="14">বগুড়া</option>
-                            <option value="35">বরগুনা</option>
-                            <option value="33">বরিশাল</option>
-                            <option value="28">বাগেরহাট</option>
-                            <option value="11">বান্দরবান</option>
-                            <option value="3">ব্রাহ্মণবাড়িয়া</option>
-                            <option value="34">ভোলা</option>
-                            <option value="62">ময়মনসিংহ</option>
-                            <option value="26">মাগুরা</option>
-                            <option value="50">মাদারীপুর</option>
-                            <option value="46">মানিকগঞ্জ</option>
-                            <option value="48">মুন্সিগঞ্জ</option>
-                            <option value="22">মেহেরপুর</option>
-                            <option value="37">মৌলভীবাজার</option>
-                            <option value="20">যশোর</option>
-                            <option value="59">রংপুর</option>
-                            <option value="4">রাঙ্গামাটি</option>
-                            <option value="49">রাজবাড়ী</option>
-                            <option value="15">রাজশাহী</option>
-                            <option value="7">লক্ষ্মীপুর</option>
-                            <option value="55">লালমনিরহাট</option>
-                            <option value="42">শরীয়তপুর</option>
-                            <option value="61">শেরপুর</option>
-                            <option value="21">সাতক্ষীরা</option>
-                            <option value="12">সিরাজগঞ্জ</option>
-                            <option value="36">সিলেট</option>
-                            <option value="39">সুনামগঞ্জ</option>
-                            <option value="38">হবিগঞ্জ</option>
                         </select><span class="select2 select2-container select2-container--default" dir="ltr"
                             data-select2-id="select2-data-5-ya1q" style="width: 100%;"><span class="selection"><span
                                     class="select2-selection select2-selection--single" role="combobox"
@@ -250,70 +183,7 @@
                             aria-hidden="true">
                             <option selected="" value="" data-select2-id="select2-data-10-tfm7">----
                             </option>
-                            <option value="9">কক্সবাজার</option>
-                            <option value="45">কিশোরগঞ্জ</option>
-                            <option value="60">কুড়িগ্রাম</option>
-                            <option value="1">কুমিল্লা</option>
-                            <option value="25">কুষ্টিয়া</option>
-                            <option value="10">খাগড়াছড়ি</option>
-                            <option value="27">খুলনা</option>
-                            <option value="57">গাইবান্ধা</option>
-                            <option value="41">গাজীপুর</option>
-                            <option value="51">গোপালগঞ্জ</option>
-                            <option value="8">চট্টগ্রাম</option>
-                            <option value="6">চাঁদপুর</option>
-                            <option value="18">চাঁপাইনবাবগঞ্জ</option>
-                            <option value="24">চুয়াডাঙ্গা</option>
-                            <option value="17">জয়পুরহাট</option>
-                            <option value="63">জামালপুর</option>
-                            <option value="30">ঝালকাঠি</option>
-                            <option value="29">ঝিনাইদহ</option>
-                            <option value="44">টাঙ্গাইল</option>
-                            <option value="58">ঠাকুরগাঁও</option>
-                            <option value="47">ঢাকা</option>
-                            <option value="54">দিনাজপুর</option>
-                            <option value="19">নওগাঁ</option>
-                            <option value="23">নড়াইল</option>
-                            <option value="40">নরসিংদী</option>
-                            <option value="16">নাটোর</option>
-                            <option value="43">নারায়ণগঞ্জ</option>
-                            <option value="56">নীলফামারী</option>
-                            <option value="64">নেত্রকোণা</option>
-                            <option value="5">নোয়াখালী</option>
-                            <option value="53">পঞ্চগড়</option>
-                            <option value="31">পটুয়াখালী</option>
-                            <option value="13">পাবনা</option>
-                            <option value="32">পিরোজপুর</option>
-                            <option value="52">ফরিদপুর</option>
-                            <option value="2">ফেনী</option>
-                            <option value="14">বগুড়া</option>
-                            <option value="35">বরগুনা</option>
-                            <option value="33">বরিশাল</option>
-                            <option value="28">বাগেরহাট</option>
-                            <option value="11">বান্দরবান</option>
-                            <option value="3">ব্রাহ্মণবাড়িয়া</option>
-                            <option value="34">ভোলা</option>
-                            <option value="62">ময়মনসিংহ</option>
-                            <option value="26">মাগুরা</option>
-                            <option value="50">মাদারীপুর</option>
-                            <option value="46">মানিকগঞ্জ</option>
-                            <option value="48">মুন্সিগঞ্জ</option>
-                            <option value="22">মেহেরপুর</option>
-                            <option value="37">মৌলভীবাজার</option>
-                            <option value="20">যশোর</option>
-                            <option value="59">রংপুর</option>
-                            <option value="4">রাঙ্গামাটি</option>
-                            <option value="49">রাজবাড়ী</option>
-                            <option value="15">রাজশাহী</option>
-                            <option value="7">লক্ষ্মীপুর</option>
-                            <option value="55">লালমনিরহাট</option>
-                            <option value="42">শরীয়তপুর</option>
-                            <option value="61">শেরপুর</option>
-                            <option value="21">সাতক্ষীরা</option>
-                            <option value="12">সিরাজগঞ্জ</option>
-                            <option value="36">সিলেট</option>
-                            <option value="39">সুনামগঞ্জ</option>
-                            <option value="38">হবিগঞ্জ</option>
+
                         </select><span class="select2 select2-container select2-container--default" dir="ltr"
                             data-select2-id="select2-data-9-rmm1" style="width: 100%;"><span class="selection"><span
                                     class="select2-selection select2-selection--single" role="combobox"
@@ -383,12 +253,6 @@
                             name="your_body_color" data-select2-id="select2-data-your_body_color" tabindex="-1"
                             aria-hidden="true">
                             <option value="">----</option>
-                            <option selected="" value="কালো" data-select2-id="select2-data-14-0n1l">কালো
-                            </option>
-                            <option value="শ্যামলা">শ্যামলা</option>
-                            <option value="উজ্জ্বল শ্যামলা">উজ্জ্বল শ্যামলা</option>
-                            <option value="ফর্সা">ফর্সা</option>
-                            <option value="উজ্জ্বল ফর্সা">উজ্জ্বল ফর্সা</option>
                         </select><span class="select2 select2-container select2-container--default" dir="ltr"
                             data-select2-id="select2-data-13-6mr4" style="width: 100%;"><span class="selection"><span
                                     class="select2-selection select2-selection--single" role="combobox"
@@ -409,55 +273,6 @@
                         <select class="form-control select2-hidden-accessible" id="body_height" name="body_height"
                             data-select2-id="select2-data-body_height" tabindex="-1" aria-hidden="true">
                             <option selected="" value="">----</option>
-                            <option value="৪'১''">৪'১''</option>
-                            <option value="৪'২''">৪'২''</option>
-                            <option value="৪'৩''">৪'৩''</option>
-                            <option value="৪'৪''">৪'৪''</option>
-                            <option value="৪'৫''">৪'৫''</option>
-                            <option value="৪'৬''">৪'৬''</option>
-                            <option value="৪'৭''">৪'৭''</option>
-                            <option value="৪'৮''">৪'৮''</option>
-                            <option value="৪'৯''">৪'৯''</option>
-                            <option value="৪'১০''">৪'১০''</option>
-                            <option value="৪'১১''">৪'১১''</option>
-                            <option value="৫'০''">৫'০''</option>
-                            <option selected="" value="৫'১''" data-select2-id="select2-data-16-lyx3">৫'১''
-                            </option>
-                            <option value="৫'২''">৫'২''</option>
-                            <option value="৫'৩''">৫'৩''</option>
-                            <option value="৫'৪''">৫'৪''</option>
-                            <option value="৫'৫''">৫'৫''</option>
-                            <option value="৫'৬''">৫'৬''</option>
-                            <option value="৫'৭''">৫'৭''</option>
-                            <option value="৫'৮''">৫'৮''</option>
-                            <option value="৫'৯''">৫'৯''</option>
-                            <option value="৫'১০''">৫'১০''</option>
-                            <option value="৫'১১''">৫'১১''</option>
-                            <option value="৬'০''">৬'০''</option>
-                            <option value="৬'১''">৬'১''</option>
-                            <option value="৬'২''">৬'২''</option>
-                            <option value="৬'৩''">৬'৩''</option>
-                            <option value="৬'৪''">৬'৪''</option>
-                            <option value="৬'৫''">৬'৫''</option>
-                            <option value="৬'৬''">৬'৬''</option>
-                            <option value="৬'৭''">৬'৭''</option>
-                            <option value="৬'৮''">৬'৮''</option>
-                            <option value="৬'৯''">৬'৯''</option>
-                            <option value="৬'১০''">৬'১০''</option>
-                            <option value="৬'১১''">৬'১১''</option>
-                            <option value="৭'০''">৭'০''</option>
-                            <option value="৭'১''">৭'১''</option>
-                            <option value="৭'২''">৭'২''</option>
-                            <option value="৭'৩''">৭'৩''</option>
-                            <option value="৭'৪''">৭'৪''</option>
-                            <option value="৭'৫''">৭'৫''</option>
-                            <option value="৭'৬''">৭'৬''</option>
-                            <option value="৭'৭''">৭'৭''</option>
-                            <option value="৭'৮''">৭'৮''</option>
-                            <option value="৭'৯''">৭'৯''</option>
-                            <option value="৭'১০''">৭'১০''</option>
-                            <option value="৭'১১''">৭'১১''</option>
-                            <option value="৮'০''">৮'০''</option>
                         </select><span class="select2 select2-container select2-container--default" dir="ltr"
                             data-select2-id="select2-data-15-4361" style="width: 100%;"><span class="selection"><span
                                     class="select2-selection select2-selection--single" role="combobox"
@@ -478,98 +293,6 @@
                         <select class="form-control select2-hidden-accessible" id="body_weight" name="body_weight"
                             data-select2-id="select2-data-body_weight" tabindex="-1" aria-hidden="true">
                             <option selected="" value="">----</option>
-                            <option value="৩০ কেজি">৩০ কেজি</option>
-                            <option value="৩১ কেজি">৩১ কেজি</option>
-                            <option value="৩২ কেজি">৩২ কেজি</option>
-                            <option value="৩৩ কেজি">৩৩ কেজি</option>
-                            <option value="৩৪ কেজি">৩৪ কেজি</option>
-                            <option value="৩৫ কেজি">৩৫ কেজি</option>
-                            <option value="৩৬ কেজি">৩৬ কেজি</option>
-                            <option value="৩৭ কেজি">৩৭ কেজি</option>
-                            <option value="৩৮ কেজি">৩৮ কেজি</option>
-                            <option value="৩৯ কেজি">৩৯ কেজি</option>
-                            <option value="৪০ কেজি">৪০ কেজি</option>
-                            <option value="৪১ কেজি">৪১ কেজি</option>
-                            <option value="৪২ কেজি">৪২ কেজি</option>
-                            <option value="৪৩ কেজি">৪৩ কেজি</option>
-                            <option value="৪৪ কেজি">৪৪ কেজি</option>
-                            <option value="৪৫ কেজি">৪৫ কেজি</option>
-                            <option value="৪৬ কেজি">৪৬ কেজি</option>
-                            <option value="৪৭ কেজি">৪৭ কেজি</option>
-                            <option value="৪৮ কেজি">৪৮ কেজি</option>
-                            <option value="৪৯ কেজি">৪৯ কেজি</option>
-                            <option value="৫০ কেজি">৫০ কেজি</option>
-                            <option value="৩১ কেজি">৩১ কেজি</option>
-                            <option value="৫২ কেজি">৫২ কেজি</option>
-                            <option value="৫৩ কেজি">৫৩ কেজি</option>
-                            <option value="৫৪ কেজি">৫৪ কেজি</option>
-                            <option value="৫৫ কেজি">৫৫ কেজি</option>
-                            <option value="৫৬ কেজি">৫৬ কেজি</option>
-                            <option value="৫৭ কেজি">৫৭ কেজি</option>
-                            <option value="৫৮ কেজি">৫৮ কেজি</option>
-                            <option value="৫৯ কেজি">৫৯ কেজি</option>
-                            <option selected="" value="৬০ কেজি" data-select2-id="select2-data-18-f40n">৬০ কেজি
-                            </option>
-                            <option value="৬১ কেজি">৬১ কেজি</option>
-                            <option value="৬২ কেজি">৬২ কেজি</option>
-                            <option value="৬৩ কেজি">৬৩ কেজি</option>
-                            <option value="৬৪ কেজি">৬৪ কেজি</option>
-                            <option value="৬৫ কেজি">৬৫ কেজি</option>
-                            <option value="৬৬ কেজি">৬৬ কেজি</option>
-                            <option value="৬৭ কেজি">৬৭ কেজি</option>
-                            <option value="৬৮ কেজি">৬৮ কেজি</option>
-                            <option value="৬৯ কেজি">৬৯ কেজি</option>
-                            <option value="৭০ কেজি">৭০ কেজি</option>
-                            <option value="৭১ কেজি">৭১ কেজি</option>
-                            <option value="৭২ কেজি">৭২ কেজি</option>
-                            <option value="৭৩ কেজি">৭৩ কেজি</option>
-                            <option value="৭৪ কেজি">৭৪ কেজি</option>
-                            <option value="৭৫ কেজি">৭৫ কেজি</option>
-                            <option value="৭৬ কেজি">৭৬ কেজি</option>
-                            <option value="৭৭ কেজি">৭৭ কেজি</option>
-                            <option value="৭৮ কেজি">৭৮ কেজি</option>
-                            <option value="৭৯ কেজি">৭৯ কেজি</option>
-                            <option value="৮০ কেজি">৮০ কেজি</option>
-                            <option value="৮১ কেজি">৮১ কেজি</option>
-                            <option value="৮২ কেজি">৮২ কেজি</option>
-                            <option value="৮৩ কেজি">৮৩ কেজি</option>
-                            <option value="৮৪ কেজি">৮৪ কেজি</option>
-                            <option value="৮৫ কেজি">৮৫ কেজি</option>
-                            <option value="৮৬ কেজি">৮৬ কেজি</option>
-                            <option value="৮৭ কেজি">৮৭ কেজি</option>
-                            <option value="৮৮ কেজি">৮৮ কেজি</option>
-                            <option value="৮৯ কেজি">৮৯ কেজি</option>
-                            <option value="৯০ কেজি">৯০ কেজি</option>
-                            <option value="৯১ কেজি">৯১ কেজি</option>
-                            <option value="৯২ কেজি">৯২ কেজি</option>
-                            <option value="৯৩ কেজি">৯৩ কেজি</option>
-                            <option value="৯৪ কেজি">৯৪ কেজি</option>
-                            <option value="৯৫ কেজি">৯৫ কেজি</option>
-                            <option value="৯৬ কেজি">৯৬ কেজি</option>
-                            <option value="৯৭ কেজি">৯৭ কেজি</option>
-                            <option value="৯৮ কেজি">৯৮ কেজি</option>
-                            <option value="৯৯ কেজি">৯৯ কেজি</option>
-                            <option value="১০০ কেজি">১০০ কেজি</option>
-                            <option value="১০১ কেজি">১০১ কেজি</option>
-                            <option value="১০২ কেজি">১০২ কেজি</option>
-                            <option value="১০৩ কেজি">১০৩ কেজি</option>
-                            <option value="১০৪ কেজি">১০৪ কেজি</option>
-                            <option value="১০৫ কেজি">১০৫ কেজি</option>
-                            <option value="১০৬ কেজি">১০৬ কেজি</option>
-                            <option value="১০৭ কেজি">১০৭ কেজি</option>
-                            <option value="১০৮ কেজি">১০৮ কেজি</option>
-                            <option value="১০৯ কেজি">১০৯ কেজি</option>
-                            <option value="১১০ কেজি">১১০ কেজি</option>
-                            <option value="১১১ কেজি">১১১ কেজি</option>
-                            <option value="১১২ কেজি">১১২ কেজি</option>
-                            <option value="১১৩ কেজি">১১৩ কেজি</option>
-                            <option value="১১৪ কেজি">১১৪ কেজি</option>
-                            <option value="১১৫ কেজি">১১৫ কেজি</option>
-                            <option value="১১৬ কেজি">১১৬ কেজি</option>
-                            <option value="১১৭ কেজি">১১৭ কেজি</option>
-                            <option value="১১৮ কেজি">১১৮ কেজি</option>
-                            <option value="১১৯ কেজি">১১৯ কেজি</option>
-                            <option value="১২০ কেজি">১২০ কেজি</option>
                         </select><span class="select2 select2-container select2-container--default" dir="ltr"
                             data-select2-id="select2-data-17-qd8u" style="width: 100%;"><span class="selection"><span
                                     class="select2-selection select2-selection--single" role="combobox"
@@ -590,15 +313,6 @@
                         <select class="form-control select2-hidden-accessible" id="blood_group" name="blood_group"
                             data-select2-id="select2-data-blood_group" tabindex="-1" aria-hidden="true">
                             <option selected="" value="">----</option>
-                            <option value="A+">A+</option>
-                            <option value="A-">A-</option>
-                            <option value="AB+">AB+</option>
-                            <option value="AB-">AB-</option>
-                            <option value="B+">B+</option>
-                            <option value="B-">B-</option>
-                            <option value="O+">O+</option>
-                            <option value="O-">O-</option>
-                            <option selected="" value="জানা নেই" data-select2-id="select2-data-20-so13">জানা নেই
                             </option>
                         </select><span class="select2 select2-container select2-container--default" dir="ltr"
                             data-select2-id="select2-data-19-qo24" style="width: 100%;"><span class="selection"><span
@@ -621,35 +335,7 @@
                             name="profession_type" data-select2-id="select2-data-profession_type" tabindex="-1"
                             aria-hidden="true">
                             <option value="" data-select2-id="select2-data-22-tw7f">----</option>
-                            <option value="18">অন্যান্য</option>
-                            <option value="8">আইনজীবী</option>
-                            <option value="11">আলেম / আলেমা</option>
-                            <option value="5">ইন্জিনিয়ার</option>
-                            <option value="24">ইমাম</option>
-                            <option value="25">ইসলামী ব্যাংক চাকরিজীবী</option>
-                            <option value="26">কন্টেন ক্রিয়েটর</option>
-                            <option value="13">কৃষক</option>
-                            <option value="29">গৃহিনী</option>
-                            <option value="1">ছাত্র/ছাত্রী</option>
-                            <option value="6">ডাক্তার</option>
-                            <option value="27">ডেভেলপপার</option>
-                            <option value="19">ড্রাইভার</option>
-                            <option value="28">দ্বীনী ইলেম শিক্ষার্থী</option>
-                            <option value="17">নার্স</option>
-                            <option value="9">প্রবাশী</option>
-                            <option value="16">ফ্রিলেন্সার</option>
-                            <option value="2">বিশ্ববিদ্যালয় শিক্ষার্থী</option>
-                            <option value="14">বেসরকারী চাকরিজীবী</option>
-                            <option value="10">ব্যবসায়ী</option>
-                            <option value="12">মাওলানা / মুফতি</option>
-                            <option value="3">মেডিকেল শিক্ষার্থী</option>
-                            <option value="21">লেখক</option>
-                            <option value="4">শিক্ষক/শিক্ষিকা</option>
-                            <option value="22">শ্রমজীবী</option>
-                            <option value="15">সরকারী চাকরিজীবী</option>
-                            <option value="20">সাংবাদিক</option>
-                            <option value="23">সামরিক চাকরিজীবী</option>
-                            <option value="7">হাফেজ /হাফেজা</option>
+
                         </select><span class="select2 select2-container select2-container--default" dir="ltr"
                             data-select2-id="select2-data-21-dmfw" style="width: 100%;"><span class="selection"><span
                                     class="select2-selection select2-selection--single" role="combobox"
@@ -802,10 +488,7 @@
                                 tabindex="-1" aria-hidden="true">
                                 <option selected="" value="" data-select2-id="select2-data-30-wpim">----
                                 </option>
-                                <option value="মুমতায">মুমতায</option>
-                                <option value="জায়্যিদ জিদ্দান">জায়্যিদ জিদ্দান</option>
-                                <option value="জায়্যিদ">জায়্যিদ</option>
-                                <option value="মকবূল">মকবূল</option>
+                             
                             </select><span class="select2 select2-container select2-container--default"
                                 dir="ltr" data-select2-id="select2-data-29-26bb" style="width: 100%;"><span
                                     class="selection"><span class="select2-selection select2-selection--single"
@@ -888,10 +571,6 @@
                             tabindex="-1" aria-hidden="true">
                             <option data-val="0" selected="" value=""
                                 data-select2-id="select2-data-34-t4nt">----</option>
-                            <option data-val="1" value="আলিয়া">আলিয়া</option>
-                            <option data-val="2" value="মাধ্যমিক">মাধ্যমিক</option>
-                            <option data-val="2" value="কারিগরি">কারিগরি</option>
-                            <option data-val="2" value="মাধ্যমিক (ইংরেজি)">মাধ্যমিক (ইংরেজি)</option>
                         </select><span class="select2 select2-container select2-container--default" dir="ltr"
                             data-select2-id="select2-data-33-nofx" style="width: 100%;"><span
                                 class="selection"><span class="select2-selection select2-selection--single"
@@ -938,16 +617,6 @@
                                 tabindex="-1" aria-hidden="true">
                                 <option selected="" value="" data-select2-id="select2-data-38-wgzb">----
                                 </option>
-                                <option value="১০ম">১০ম</option>
-                                <option value="৯ম">৯ম</option>
-                                <option value="৮ম">৮ম</option>
-                                <option value="৭ম">৭ম</option>
-                                <option value="৬ষ্ঠ">৬ষ্ঠ</option>
-                                <option value="৫ম">৫ম</option>
-                                <option value="৪র্থ">৪র্থ</option>
-                                <option value="৩য়">৩য়</option>
-                                <option value="২য়">২য়</option>
-                                <option value="১ম">১ম</option>
                             </select><span class="select2 select2-container select2-container--default"
                                 dir="ltr" data-select2-id="select2-data-37-d56v" style="width: 100%;"><span
                                     class="selection"><span class="select2-selection select2-selection--single"
@@ -974,10 +643,6 @@
                                 tabindex="-1" aria-hidden="true">
                                 <option selected="" value="" data-select2-id="select2-data-40-5gmg">----
                                 </option>
-                                <option value="বিজ্ঞান বিভাগ">বিজ্ঞান বিভাগ</option>
-                                <option value="মানবিক বিভাগ">মানবিক বিভাগ</option>
-                                <option value="ব্যবসা বিভাগ">ব্যবসা বিভাগ</option>
-                                <option value="কারিগরি / ভোকেশনাল">কারিগরি / ভোকেশনাল</option>
                             </select><span class="select2 select2-container select2-container--default"
                                 dir="ltr" data-select2-id="select2-data-39-4oyv" style="width: 100%;"><span
                                     class="selection"><span class="select2-selection select2-selection--single"
@@ -1036,13 +701,7 @@
                                     tabindex="-1" aria-hidden="true">
                                     <option selected="" value="" data-select2-id="select2-data-44-afly">
                                         ----</option>
-                                    <option value="HSC দ্বিতীয় বর্ষ">HSC দ্বিতীয় বর্ষ</option>
-                                    <option value="HSC প্রথম বর্ষ">HSC প্রথম বর্ষ</option>
-                                    <option value="HSC রেজাল্ট দেয় নি এখনো">HSC রেজাল্ট দেয় নি এখনো</option>
-                                    <option value="SSC এর পর আর পড়াশোনা করা হয় নি">SSC এর পর আর পড়াশোনা করা হয় নি
-                                    </option>
-                                    <option value="HSC পরীক্ষা দিয়ে পাশ করতে পারি নি।">HSC পরীক্ষা দিয়ে পাশ করতে পারি
-                                        নি।</option>
+                                    
                                 </select><span class="select2 select2-container select2-container--default"
                                     dir="ltr" data-select2-id="select2-data-43-s85b"
                                     style="width: 100%;"><span class="selection"><span
@@ -1070,9 +729,7 @@
                                     tabindex="-1" aria-hidden="true">
                                     <option selected="" value="" data-select2-id="select2-data-46-b81x">
                                         ----</option>
-                                    <option value="বিজ্ঞান বিভাগ">বিজ্ঞান বিভাগ</option>
-                                    <option value="মানবিক বিভাগ">মানবিক বিভাগ</option>
-                                    <option value="ব্যবসা বিভাগ">ব্যবসা বিভাগ</option>
+                                    
                                 </select><span class="select2 select2-container select2-container--default"
                                     dir="ltr" data-select2-id="select2-data-45-pcw1"
                                     style="width: 100%;"><span class="selection"><span
@@ -1224,18 +881,7 @@
                         <option selected="" value="">----</option>
                         <option selected="" value="বোন নেই" data-select2-id="select2-data-48-q6i3">বোন নেই
                         </option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
+                        
                     </select><span class="select2 select2-container select2-container--default" dir="ltr"
                         data-select2-id="select2-data-47-u4cy" style="width: 100%;"><span class="selection"><span
                                 class="select2-selection select2-selection--single" role="combobox"
@@ -1259,18 +905,7 @@
                         <option selected="" value="">----</option>
                         <option selected="" value="ভাই নেই" data-select2-id="select2-data-50-5qlf">ভাই নেই
                         </option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
+                        
                     </select><span class="select2 select2-container select2-container--default" dir="ltr"
                         data-select2-id="select2-data-49-zxhr" style="width: 100%;"><span class="selection"><span
                                 class="select2-selection select2-selection--single" role="combobox"
@@ -1325,13 +960,7 @@
                             tabindex="-1" aria-hidden="true">
                             <option selected="" value="" data-select2-id="select2-data-52-ful0">----
                             </option>
-                            <option value="আমি বোরকার সাথে মুখ ঢাকি ও মোজা পড়ি">আমি বোরকার সাথে মুখ ঢাকি ও মোজা পড়ি
-                            </option>
-                            <option value="আমি বোরকার সাথে মুখ ঢেকে চলি">আমি বোরকার সাথে মুখ ঢেকে চলি</option>
-                            <option value="আমি বোরকার সাথে মুখ খোলা রাখি">আমি বোরকার সাথে মুখ খোলা রাখি</option>
-                            <option value="আমি বোরকা পড়িনা কিন্তু শালীনতার সাথে হিজাব ব্যবহার করি">আমি বোরকা পড়িনা
-                                কিন্তু শালীনতার সাথে হিজাব ব্যবহার করি</option>
-                            <option value="না, আমি হিজাবও পরি না">না, আমি হিজাবও পরি না</option>
+                        
                         </select><span class="select2 select2-container select2-container--default" dir="ltr"
                             data-select2-id="select2-data-51-9jkb" style="width: 100%;"><span
                                 class="selection"><span class="select2-selection select2-selection--single"
@@ -1360,10 +989,7 @@
                             aria-hidden="true">
                             <option selected="" value="" data-select2-id="select2-data-54-eeci">----
                             </option>
-                            <option value="জ্বী, সুন্নতি দাড়ি রেখেছি">জ্বী, সুন্নতি দাড়ি রেখেছি</option>
-                            <option value="ছোট করে ছেটে দাড়ি রেখেছি">ছোট করে ছেটে দাড়ি রেখেছি</option>
-                            <option value="না, রাখিনি">না, রাখিনি</option>
-                            <option value="না, এখনো ওঠেনি">না, এখনো ওঠেনি</option>
+                
                         </select><span class="select2 select2-container select2-container--default" dir="ltr"
                             data-select2-id="select2-data-53-9syh" style="width: 100%;"><span
                                 class="selection"><span class="select2-selection select2-selection--single"
@@ -1704,10 +1330,6 @@
                             aria-hidden="true">
                             <option selected="" value="" data-select2-id="select2-data-56-0wu1">----
                             </option>
-                            <option value="পাত্রের দাড়ি থাকতেই হবে">পাত্রের দাড়ি থাকতেই হবে</option>
-                            <option value="পাত্রের দাড়ি থাকলে ভাল হয়">পাত্রের দাড়ি থাকলে ভাল হয়</option>
-                            <option value="পাত্রের দাড়ি না থাকলেও হবে">পাত্রের দাড়ি না থাকলেও হবে</option>
-                            <option value="পাত্রের দাড়ি না থাকলে ভাল হয়">পাত্রের দাড়ি না থাকলে ভাল হয়</option>
                         </select><span class="select2 select2-container select2-container--default" dir="ltr"
                             data-select2-id="select2-data-55-rl2c" style="width: 100%;"><span
                                 class="selection"><span class="select2-selection select2-selection--single"
