@@ -14,7 +14,7 @@ class UserBasicController extends Controller
      */
     public function index()
     {
-        
+        return 'test';
     }
 
     /**

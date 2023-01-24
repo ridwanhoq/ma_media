@@ -28,6 +28,12 @@ return [
 
     'env' => env('APP_ENV', 'production'),
 
+
+    /**
+     * Application related variables
+     */
+    'login_failed_message' => 'Unauthenticated',
+
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
