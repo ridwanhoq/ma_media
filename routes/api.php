@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\V1\LoginApiController;
 use App\Http\Controllers\UserBasicController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -20,6 +21,13 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::prefix("/v1")->group(function () {
+
+    Route::controller(LoginApiController::class)->group(function(){
+        Route::get('login', 'loginRequires');
+        Route::post('login', 'login');
+    });
+
+
     Route::middleware('auth:sanctum')->group(function () {
         Route::controller(UserBasicController::class)->group(function () {
             Route::get('users', 'index');
