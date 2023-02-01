@@ -7,6 +7,15 @@ use App\Http\Components\Helpers\BengaliHelper;
 class Setting
 {
 
+    /**
+     * Application related variables
+     */
+    public static $validation_error_message     = "Some validation error occurs";
+    public static $catch_error_message          = "Please try again.";
+    public static $login_failed_message         = "Unauthenticated";
+
+
+
     /***
      * common starts
      */

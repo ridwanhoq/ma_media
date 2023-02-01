@@ -2,6 +2,7 @@
 
 namespace App\Exceptions;
 
+use App\Http\Components\Setting;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
@@ -45,7 +46,7 @@ class Handler extends ExceptionHandler
     {
         $app_response = [
             'success'   => false,
-            'message'   => config('app.login_failed_message'),
+            'message'   => Setting::$login_failed_message,
             'data'      => null
         ];
 

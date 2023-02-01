@@ -32,8 +32,6 @@ return [
     /**
      * Application related variables
      */
-    'catch_error_message'   => 'Please try again.',
-    'login_failed_message'  => 'Unauthenticated',
 
     /*
     |--------------------------------------------------------------------------

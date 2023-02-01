@@ -29,13 +29,16 @@ trait ApiHelperTrait
      * Return Default API Output Message
      * This Method for API Response
      */
-    protected function apiOutput($status_code = 200, $message = "")
+    protected function apiOutput($status_code = 200, $message = "", $validation_errors = [])
     {
+        $congrats_or_sorry = $status_code == 200 ? "Congratulations ! " : "Sorry ! ";
+
         $content = [
-            'status'    => $this->status,
-            'message'   => !empty($message) ? $message : $this->message,
-            'api_token' => $this->api_token,
-            'data'      => $this->data == null ? null : $this->data,
+            'status'                => $status_code == 200 ? true : false,
+            'message'               => !empty($message) ? $congrats_or_sorry.$message : $congrats_or_sorry.$this->message,
+            'validation_errors'     => $validation_errors,
+            'api_token'             => $this->api_token,
+            'data'                  => $this->data == null ? null : $this->data,
         ];
         if (empty($this->api_token)) {
             unset($content["api_token"]);
@@ -95,6 +98,11 @@ trait ApiHelperTrait
                 )
             );
         }
+    }
+
+    public function apiNoDataError($item = "This")
+    {
+        return $item." data not found.";
     }
     
 }

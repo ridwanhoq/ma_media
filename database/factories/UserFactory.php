@@ -26,7 +26,7 @@ class UserFactory extends Factory
             'photo'             => 'matched_profiles/photo.jpg',
             'country_id'        => User::$default_country_id,
             'email_verified_at' => now(),
-            'password'          => bcrypt('1234'),
+            'password'          => bcrypt(123456),
             'remember_token'    => Str::random(10),
         ];
     }

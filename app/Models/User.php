@@ -52,5 +52,25 @@ class User extends Authenticatable
     public static $default_phone_number    = "01711223344";
     public static $default_country_id      = 1;
 
+    public static function loginRules() {
+        return [
+            'email'     => 'required|email',
+            'password'  => 'required|min:4|max:50'
+        ];
+    }
+
+    public static function registerRules()
+    {
+        return [
+            'name'          => 'required',
+            'date_of_birth' => 'required',
+            'gender'        => 'required',
+            'phone_number'  => 'required',
+            'country'       => 'required',
+            'email'         => 'required|email|unique:users',
+            'password'      => 'required|min:6|max:50'
+        ];
+    }
+
     
 }

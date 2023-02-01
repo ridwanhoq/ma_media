@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\V1\LoginApiController;
+use App\Http\Controllers\Api\V1\RegisterApiController;
 use App\Http\Controllers\UserBasicController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -21,6 +22,12 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::prefix("/v1")->group(function () {
+
+    Route::controller(RegisterApiController::class)->group(function(){
+        Route::get('register', 'registerRequires');
+        Route::post('register', 'register');
+    });
+    
 
     Route::controller(LoginApiController::class)->group(function(){
         Route::get('login', 'loginRequires');
