@@ -3,23 +3,23 @@ phase 1 :
 
 >> create default pages
     >> components
-        >> header
-        >> menu
-        >> footer
+        >> header -- d
+        >> menu -- d
+        >> footer -- d
     >> common pages
-        >> sample_table
-        >> sample_form
-        >> filter (list)
-        >> pagination (list)
+        >> sample_table -- d
+        >> sample_form -- d
+        >> filter (list) -- w
+        >> pagination (list) -- w
     >> lang
         >> en.json
         >> bn.json
     >> setting
-        >> 
+        >> setting component -- w
 
->> register
+>> register -- d
 
->> login
+>> login -- d
 
 >> role-permission
 
