@@ -485,7 +485,21 @@
     "SCIENCE" : "বিজ্ঞান",
     "RELIGION STUDIES" : "ধর্ম অধ্যয়ন",
     "LIFE SKILLS" : "জীবন দক্ষতা",
-    "Total": "মোট"
+    "Total": "মোট",
 
 
+    "Name is taken for verification": "",
+    "Username (usually email or password)": "লগইন ব্যবহারকারীর নাম (Email or Mobile Number) হিসাবে ব্যবহার করুন",
+    "Password should be minimum 8 characters": "পাসওয়ার্ড মিনিমাম ৮ ডিজিট হতে হবে",
+    "Confirm password": "নিশ্চিত পাসওয়ার্ড",
+    "Registration" : "রেজিস্টেশন করুন",
+    "Update" : "আপডেট করুন",
+    "Mobile number": "আপনার মোবাইল নাম্বার",
+    "SMS will be sent to this mobile number": "আপনার মোবাইল নাম্বার লিখুন। এই মোবাইল নাম্বারে SMS পাঠানো হবে।",
+    "Type of Bio-data" : "বায়োডাটার ধরন",
+    "Marital status": "বৈবাহিক অবস্থা",
+    "Permanent address": "স্থায়ী ঠিকানা",
+    "Permanent address in which district" : "স্থায়ী ঠিকানা যে জেলার আওতাধীন",
+    "Permanent address in which upazila" : "স্থায়ী ঠিকানা যে উপজেলা আওতাধীন",
+    "Permanent address in which union" : "স্থায়ী ঠিকানা যে ইউনিয়ন আওতাধীন",
 }
