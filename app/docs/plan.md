@@ -21,12 +21,16 @@ phase 1 :
 
 >> login -- d
 
->> role-permission
+>> role-permission -- w
 
 >> tables
     >> users
     >> user_basics
     >> user_religions
+    >> user_education
+    >> user_profession
+    >> price_plans
+    >> setting_profile -- 
     >> divisions
     >> districts
     >> upazilas
