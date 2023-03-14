@@ -19,6 +19,9 @@ class Setting
     // <option data-val="1" value="কওমি মাদ্রাসা">কওমি মাদ্রাসা</option>
     // <option data-val="2" value="জেনারেল">জেনারেল</option>
 
+    // <option data-val="1" value="না">না</option>
+    //                 <option data-val="2" value="হ্যাঁ">হ্যাঁ</option>
+    //                 <option data-val="3" value="না, এখনো পড়ছি">না, এখনো পড়ছি</option>
 
     /***
      * common starts
