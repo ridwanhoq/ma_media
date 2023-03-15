@@ -31,3 +31,4 @@ Route::group(['middleware' => 'auth'], function(){
     Route::resource('matched_profiles', MatchedProfileController::class);
     // Route::
 });
+
